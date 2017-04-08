@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mil.navy.takingover.view.TakeOverLayoutController">
+   <top>
+      <Text fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" text="여기에 인계 타이틀이 작성 됩니다." BorderPane.alignment="TOP_LEFT">
+         <font>
+            <Font name="Malgun Gothic Bold" size="14.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Text>
+   </top>
+   <center>
+      <Text fx:id="object" strokeType="OUTSIDE" strokeWidth="0.0" text="여기에 자세한 인계 내용이 기술됩니다." BorderPane.alignment="TOP_LEFT">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="10.0" top="5.0" />
+         </BorderPane.margin>
+      </Text>
+   </center>
+   <bottom>
+      <Text fx:id="orderer" fill="#8800cd" strokeType="OUTSIDE" strokeWidth="0.0" text="여기에 인계자의 이름이 적힙니다." BorderPane.alignment="TOP_RIGHT" />
+   </bottom>
+</BorderPane>

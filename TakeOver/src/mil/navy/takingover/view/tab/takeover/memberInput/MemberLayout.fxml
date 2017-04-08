@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="210.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mil.navy.takingover.view.tab.takeover.memberInput.MemberLayoutController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" promptText="줄띄움으로 구분" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="Malgun Gothic Bold" size="14.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="줄 띄움으로 인원을 구분합니다.">
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </TextArea>
+      <Button fx:id="button" layoutX="80.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleAcceptButton" text="저장" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="273.0">
+         <tooltip>
+            <Tooltip text="Ctrl+Enter 키로 바로 저장 할 수 있습니다.">
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Tooltip>
+         </tooltip></Button>
+   </children>
+</AnchorPane>

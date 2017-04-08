@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: TakeOverApp
+Implementation-Version: 1.0
+Permissions: sandbox
+JavaFX-Feature-Proxy: None
+JavaFX-Version: 8.0
+Class-Path: TakingOver.jar libs/jfxrt.jar img/takeOverIcon.png
+Created-By: JavaFX Packager
+Implementation-Vendor: navy.mil
+Main-Class: mil.navy.takingover.MainApp
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="270.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="인수인계 도구의 초기 환경 설정 마법사를 시작합니다.">
+         <font>
+            <Font name="Malgun Gothic Bold" size="14.0" />
+         </font></Text>
+      <Text layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="마법사를 시작하기 전에 숙지할 사항은 다음과 같습니다.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. 이 도구는 비인가임을 인지합니다.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. 도구의 사용에 따른 책임은 사용자에게 있습니다.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. 각 부서 인수인계 업무의 편의성을 도모하기 위헤 제작되었습니다.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. 여기서 사용되는 UNC모드(공유폴더 접근) 은 보안에 위배될 수 있습니다.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="위 사항을 모두 숙지하였다면 [동의] 버튼을 눌러 계속 진행 해 주세요.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

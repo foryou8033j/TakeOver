@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="120.0" maxWidth="400.0" minHeight="120.0" minWidth="400.0" prefHeight="120.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mil.navy.takingover.view.root.option.directoryselector.DirectorySelectorLayoutController">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="128.0" minWidth="10.0" prefWidth="56.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="261.0" minWidth="10.0" prefWidth="261.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="111.0" minWidth="10.0" prefWidth="66.0" />
+   </columnConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="원격 주소" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="로컬 주소" GridPane.rowIndex="1" />
+      <Button fx:id="umlButton" mnemonicParsing="false" onAction="#handleSetUmlPath" text="경로" GridPane.columnIndex="2" />
+      <Button fx:id="localButton" mnemonicParsing="false" onAction="#handleSetLocalPath" text="경로" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextField fx:id="umlPath" editable="false" GridPane.columnIndex="1">
+         <tooltip>
+            <Tooltip text="여러 PC에서 사용 할 경우 모든 데이터가 모이는 폴더를 지정 해 주세요. 단독으로 사용한다면 비워주세요." />
+         </tooltip>
+      </TextField>
+      <TextField fx:id="localPath" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <tooltip>
+            <Tooltip text="로컬 상에 데이터자 저장되는 장소를 지정해주세요." />
+         </tooltip>
+      </TextField>
+      <Button fx:id="save" mnemonicParsing="false" onAction="#handleSave" prefHeight="23.0" prefWidth="109.0" text="확인" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

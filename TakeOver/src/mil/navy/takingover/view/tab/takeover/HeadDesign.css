@@ -1,0 +1,8 @@
+.background {
+	-fx-background-color: #1d1d1d;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected{
+	-fx-background-color: gold ;
+	-fx-text-fill: white ;
+}

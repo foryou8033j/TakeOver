@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="270.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="인수인계 도구의 모든 초기 설정을 마쳤습니다.&#10;&#10;설정 된 데이터 폴더를 기반으로 초기 데이터를 구성합니다.&#10;&#10;기존에 선택 된 옵션들은 추후 환경설정에서 변경 할 수 있습니다.&#10;&#10;&#10;copyright by navy 626th 병장 서정삼">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

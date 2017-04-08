@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="270.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mil.navy.takingover.view.startmanager.ManagerPage5Controller">
+   <children>
+      <Text layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="인수인계 도구를 사용 할 때 패스워드를 이용해 보안성을 강화할 수 있습니다.&#10;">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font></Text>
+      <Text layoutX="109.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="패스워드">
+         <font>
+            <Font name="Malgun Gothic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="115.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="재입력">
+         <font>
+            <Font name="Malgun Gothic" size="12.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="password" layoutX="174.0" layoutY="108.0" prefHeight="21.0" prefWidth="174.0" />
+      <PasswordField fx:id="retypePassword" layoutX="174.0" layoutY="141.0" prefHeight="21.0" prefWidth="174.0" />
+      <CheckBox fx:id="noUsePassword" layoutX="14.0" layoutY="66.0" mnemonicParsing="false" onAction="#handleNoUsePassword" text="패스워드 미사용" />
+      <Text fx:id="hintText1" layoutX="356.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="166.0000055730343">
+         <font>
+            <Font name="Malgun Gothic" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="hintText2" layoutX="356.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="166.00000247359276">
+         <font>
+            <Font name="Malgun Gothic" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

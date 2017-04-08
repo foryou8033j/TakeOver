@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="270.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mil.navy.takingover.view.startmanager.ManagerPage3Controller">
+   <children>
+      <Text layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="방금 지정한 폴더가 공유 폴더 인지 확인이 필요합니다.&#10;&#10;&#10;공유폴더를 사용하여 여러 PC가 접근하여 수정하고 열람 하는 것을 UNC 모드라고 합니다.&#10;UNC 모드 사용을 위해 아래 사용자의 동의가 필요합니다.">
+         <font>
+            <Font name="Malgun Gothic" size="13.0" />
+         </font></Text>
+      <RadioButton fx:id="yes" layoutX="55.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleYes" text="예, UNC모드를 사용하여 여러 PC에서 한 폴더에 접근합니다." />
+      <RadioButton fx:id="no" layoutX="55.0" layoutY="149.0" mnemonicParsing="false" onAction="#handleNo" text="아니요, 이 PC에서만 접근하여 사용합니다." />
+      <Text fx:id="text" layoutX="55.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>
